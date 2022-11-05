@@ -12,22 +12,17 @@ body{
 .container{
     width: 100%;
     max-width: 100%;
+    height: 100%;
 }
 
-#titulo{
-    text-align: center;
-    margin-top: 10px;
-}
 
 #somar{
     width: 70%;
-    height: 380px;
+    height: 480px;
     background-color: rgba(255, 0, 0, 0.9);
     align-items: center;
     justify-items: center;
     margin: auto;
-    margin-top: 15px;
-
 }
 
 
@@ -106,6 +101,11 @@ background-color: rgba(255, 0, 0, 0.9);
         padding: 0;
     }
 
+    body{
+        height: 100%;
+    }
+
+
     h2{
         font-size: 2em;
     }
@@ -141,10 +141,8 @@ background-color: rgba(255, 0, 0, 0.9);
     }
 
     #somar{
-        margin-top: 100px;
         width: 100%;
-        height: 700px;
-    
+        height: 100%;
     }
 
     #ress{
