@@ -105,6 +105,10 @@ background-color: rgba(255, 0, 0, 0.9);
         margin: 0;
         padding: 0;
     }
+
+    h2{
+        font-size: 2em;
+    }
     
     .button{
         width: 100%;
@@ -114,11 +118,17 @@ background-color: rgba(255, 0, 0, 0.9);
         margin: auto;
         margin-top: 10px;
     }
+    input{
+        width: 250px;
+        height: 55px;
+
+    
+ }
 
     .calcular{
         border-radius: 15px;
         width: 150px;
-        height: 50px;
+        height: 80px;
        
     }
 
@@ -133,8 +143,13 @@ background-color: rgba(255, 0, 0, 0.9);
     #somar{
         margin-top: 100px;
         width: 100%;
-        height: 500px;
+        height: 700px;
     
+    }
+
+    #ress{
+        margin-top: 10px;
+        height: 150px;
     }
 
      }
